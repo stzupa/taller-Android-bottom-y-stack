@@ -1,15 +1,15 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+# 1. Agrega el nuevo archivo .gitignore
+git add .gitignore
+
+# 2. **IMPORTANTE:** Detiene el rastreo de todos los archivos ahora ignorados.
+#    Esto evita que las carpetas "build" sigan en el repositorio.
+git rm -r --cached .
+
+# 3. Vuelve a agregar todo (Git solo agregará lo que NO esté en .gitignore)
+git add .
+
+# 4. Crea el commit de limpieza 
+git commit -m "chore: Configure .gitignore and clean repository of build files"
+
+# 5. Sube la limpieza al repositorio
+git push origin main
