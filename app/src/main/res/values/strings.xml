@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EjercicioTaller</string>
+    <string name="title_home">Lista Tareas</string>
+    <string name="title_dashboard">Agregar tarea</string>
+    <string name="title_notifications">Ajustes</string>
+    <string name="login_inicio">LOGIN</string>
+    <string name="login_nombre">Nombre</string>
+    <string name="login_pass">Password</string>
+    <string name="login_boton">Ingresar</string>
+    <string name="agreagar_tarea_titulo">Formulario Agregar Nueva tarea</string>
+    <string name="tarea_nombre">Nombre Tarea</string>
+    <string name="tarea_descripcion">Descripcion Tarea</string>
+    <string name="btn_agregar_tarea">Agregar tarea</string>
+</resources>
